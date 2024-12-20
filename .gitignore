@@ -1,0 +1,6 @@
+.idea
+.bin
+.vscode
+.env
+*.db
+*.lock

@@ -1,0 +1,15 @@
+db_file: "bot.db"
+
+bot_url: "https://t.me/pocket_for_you_bot"
+
+messages:
+  responses:
+    start: "Привет! Чтобы сохранить ссылки в своем Pocket аккаунте, необходимо дать мне доступ к нему. Для этого перейди по ссылке:\n%s"
+    already_authorized: "Ты уже авторизован! Присылай мне ссылку, а её сохраню."
+    saved_successfully: "Ссылка успешно сохранена!"
+    unknown_command: "Я не знаю такой команды:("
+  errors:
+    default: "Произошла неизвестная ошибка"
+    invalid_url: "Это невалидная ссылка!"
+    unauthorized: "Ты не авторизирован! Используй команду /start"
+    unable_to_save: "Не удалось сохранить ссылку=( Попробуй еще раз позже"
